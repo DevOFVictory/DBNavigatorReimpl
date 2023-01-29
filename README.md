@@ -1,24 +1,15 @@
 ## DB Navigator App Reimplementation
 
 ### About
-This project is the result of the reverse engineered 'DB Navigator' App by 
-
----
+This project is the result of the reverse engineered *DB Navigator* App by *Deutsche Bahn AG*. It was developed to make navigation in Germany easier for seniors and the visually impaired. Only the most important functions are included and unnecessary graphics and animations have been removed. The font size is dynamic.
 
 ### Showcase
-![enter image description here](https://github.com/DevOFVictory/hutcha-backend/blob/master/demo.gif?raw=true)
-
+![Demo Screenshot](./assets/demo.png)
 
 ### Built with
-This is the backend side of the HUTCHA project and its completly built with Python and the Flask libary.
+The project is fully built with standard web technology (HTML, CSS, JavaScript). For fetching the current information it uses the `v5.db.transport.rest` API.
 
 ### Features
-- IP Blocking to guarantee the solvers location
-- DoS Protection / Scraping Protection
-- Support for multible languages
-- Clean and understandable REST API
-- MYSQL Support
-
-### Contribute
-Feel free to contribute :)
-
+- Dynamic font size
+- Design: Black on white
+- Stations autocompletion
