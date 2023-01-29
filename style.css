@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 10px;
+}
+
+#tempSaver {
+    display: none;
+}
+
+h1{
+    font-size: 20pt;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    /* center the content */
+    align-items: center;
+}
+
+.btn {
+    background-color: #c2f0f1; /* Green */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 24pt;
+    width: 250px;
+}
+
+#navigation {
+    top: 40%;
+    position: absolute;
+}
+body:loading {
+    filter: blur(5px);
+  }
+  
+body:loading:before {
+    content: "Loading";
+  }
+
+#from-to-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    height: 50px;
+    width: 90%;
+    font-size: 16pt;
+    border-radius: 25px;
+    border: 2px solid #c2f0f1;
+    padding-left: 10px;
+}
+
+.input.to{
+    margin-top: 20px;
+}
+
+.input.departure{
+    margin-top: 20px;
+}
+
+#welcomePage {
+    width: 100%;
+}
+
+#search-btn {
+    width: 90%;
+    height: 50px;
+    font-size: 16pt;
+    border-radius: 25px;
+    border: 2px solid #c2f0f1;
+    background-color: #c2f0f1;
+    position: absolute;
+    bottom: 40px;
+    color: black;
+    font-weight: bold;
+}
